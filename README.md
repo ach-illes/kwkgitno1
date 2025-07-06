@@ -1,3 +1,3 @@
 # kwkgitno1
-A git practice reposity
+A git practice repository!
 
