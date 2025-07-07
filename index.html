@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <h1>About Me</h1>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <img src="IMG_3909.jpg" alt="My Photo" class="profile-pic" />
+      <div class="bio">
+        <h2>Hi, I'm Abiha!</h2>
+        <p>
+          I'm passionate about technology, education, and creating positive change. I'm an upcoming freshman at Sabanci University in Istanbul, Turkiye.
+        </p>
+      </div>
+    </section>
+
+    <section class="media">
+      <h2>Currently Into</h2>
+      <div class="buttons">
+        <a class="media-btn" href="https://open.spotify.com/track/2u3K3cWz6wa3AMKkXwXchq" target="_blank" onclick="logClick('Listening')">
+          What I'm listening to 🎧
+        </a>
+        <a class="media-btn" href="https://www.goodreads.com/book/show/13188676-ignite-me" target="_blank" onclick="logClick('Reading')">
+          What I'm reading 📚
+        </a>
+        <a class="media-btn" href="https://www.netflix.com/browse?jbv=70195800" target="_blank" onclick="logClick('Watching')">
+          What I'm watching 🎬
+        </a>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:abihafarooq16@gmail.com">abihafarooq16@gmail.com</a></li>
+        <li>LinkedIn: <a href="www.linkedin.com/in/abiha-farooq-8013b4246" target="_blank">AbihaFarooq @ LinkedIn</a></li>
+        <li>GitHub: <a href="https://github.com/ach-illes" target="_blank">github.com/ach-illes</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    function logClick(type) {
+      console.log(`User clicked on: ${type}`);
+    }
+  </script>
+</body>
+</html>
